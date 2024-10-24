@@ -253,6 +253,29 @@
             .right h1 {
                
                 font-size: 22px;}
+                .ford a {
+                    padding: 0px 23px;
+                    font-size: 20px;
+                    margin-right: 44px;
+                    
+                }
+                .forjob a {
+                    padding: 6px 22px;
+                    font-size: 11px;
+                    margin-left: 51px;
+                }
+                .and h3 {
+                 
+                    font-size: 30px;
+                    padding: 10px;
+                }
+                .roll {
+                    width: 29%;
+                    margin-right: 73px;
+                }
+                .before ul {
+                    margin-top: 16px;
+                }
 }
 @media screen and (min-width:570px) and (max-width:1100px){
     *{
