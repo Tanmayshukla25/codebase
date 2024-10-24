@@ -1,11 +1,11 @@
 @media screen and (min-width:320px) and (max-width:570px) {
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
- 
- 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
     .header {
         display: none;
     }
@@ -77,6 +77,7 @@
     .deve1 h1 {
         font-size: 38px;
         padding-left: 15px;
+        padding-top: 20px;
     }
 
     .deve1 p {
@@ -85,29 +86,33 @@
     }
 
     .class {
-         width: 200px;
-         margin: auto;
-     
+        width: 200px;
+        margin: auto;
+
     }
-    
+
     .redmi1 ul {
         display: flex;
-        
+
         justify-content: center;
     }
-    .redmi ul{
+
+    .redmi ul {
         flex-direction: column;
     }
+
     .picture p {
         width: 212px;
         padding-bottom: 14px;
     }
+
     .tale {
-            height: 220px;
-        }
-        .tales {
-            height: 226px;
-        }
+        height: 220px;
+    }
+
+    .tales {
+        height: 226px;
+    }
 
     .family {
 
@@ -141,8 +146,13 @@
 
     }
 
+    .Service1 {
+        padding: 125px 0 7px 0;
+
+    }
+
     .redmi li {
-        width: 87px;
+        width: 101px;
         border-radius: 20px;
         padding: 8px;
         margin: 6px 2px 0px 0px;
@@ -179,119 +189,149 @@
         padding: 8px 17px;
         margin-left: 15px;
     }
+
     .Every h1 {
         padding-top: 57px;
         color: #55535cfb;
         text-align: center;
         font-size: 24px;
     }
-    .dree{
+
+    .dree {
         padding-bottom: 30px;
     }
+
     .meet {
-       
+
         padding: 40px 0;
         font-size: 29px;
     }
-    .jupiter{
+
+    .jupiter {
         width: 100px;
         height: 70px;
-     }
-     .jupiter img{
+    }
+
+    .jupiter img {
         width: 100%;
         height: 100%;
         margin-left: 108px;
-     }
-     .money h1 {
+    }
+
+    .money h1 {
         padding: 30px 6px;
         text-align: center;
         font-size: 24px;
     }
-    
+
     .money {
-        
+
         font-size: 14px;
     }
+
     .top {
-      
-       
+
+
         font-size: 16px;
     }
+
     .us h1 {
         font-size: 54px;
         text-align: center;
         padding: 86px 0 30px 0;
     }
+
     .right p {
-        
-            font-size: 21px;
-        
-        margin-bottom: 33px;}
-        .talent {
-            width: 281px;
-            padding-left: 26px;
-        }
-        .tales p {
-            padding-bottom: 39px;
-        }
-            .redmi li {
-                margin: 8px 2px 8px 0px;
-            }
-            .talent {    
-                height: 796px;    
-            }
-            .picture h1 {
-                font-size: 20px;
-            }
-            .picture p {
-                width: 269px;
-                color: #000000a1;
-            }
-            .project { 
-                margin-right: 5px;   
-            }
-            .right h1 {
-               
-                font-size: 22px;}
-                .ford a {
-                    padding: 0px 23px;
-                    font-size: 20px;
-                    margin-right: 44px;
-                    
-                }
-                .forjob a {
-                    padding: 6px 22px;
-                    font-size: 11px;
-                    margin-left: 51px;
-                }
-                .and h3 {
-                 
-                    font-size: 30px;
-                    padding: 10px;
-                }
-                .roll {
-                    width: 29%;
-                    margin-right: 73px;
-                }
-                .before ul {
-                    margin-top: 16px;
-                }
+
+        font-size: 21px;
+
+        margin-bottom: 33px;
+    }
+
+    .talent {
+        width: 281px;
+        padding-left: 26px;
+    }
+
+    .tales p {
+        padding-bottom: 39px;
+    }
+
+    .redmi li {
+        margin: 8px 2px 8px 0px;
+    }
+
+    .talent {
+        height: 796px;
+    }
+
+    .picture h1 {
+        font-size: 20px;
+    }
+
+    .picture p {
+        width: 269px;
+        color: #000000a1;
+    }
+
+    .project {
+        margin-right: 5px;
+    }
+
+    .right h1 {
+
+        font-size: 22px;
+    }
+
+    .ford a {
+        padding: 0px 23px;
+        font-size: 20px;
+        margin-right: 44px;
+
+    }
+
+    .forjob a {
+        padding: 6px 22px;
+        font-size: 11px;
+        margin-left: 51px;
+    }
+
+    .and h3 {
+
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .roll {
+        padding-top: 10px;
+        width: 29%;
+        margin-right: 73px;
+    }
+
+    .before ul {
+        margin-top: 16px;
+    }
 }
-@media screen and (min-width:570px) and (max-width:1100px){
-    *{
+
+@media screen and (min-width:570px) and (max-width:1100px) {
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-     }
+    }
+
     .header {
         display: none;
     }
+
     .main {
         flex-direction: column;
     }
+
     .class {
         flex-direction: column;
     }
+
     .ind {
         flex-direction: column;
 
@@ -312,6 +352,7 @@
     .mosts {
         flex-direction: column;
     }
+
     .first1 {
         display: flex;
         padding-bottom: 40px;
@@ -351,215 +392,247 @@
     .right p {
         width: unset;
     }
+
     .deve1 h1 {
         font-size: 34px;
         padding-left: 15px;
+        padding-top: 20px;
     }
 
     .deve1 p {
         padding: 15px 15px;
         font-size: 15px;
         color: #000000db;
-        
-    }
-    .deveimage{
-            margin-bottom: 30px;
-            width: 454px;
-            height: 300px;
-            padding-bottom: 53px;
-      
-    }
-    }
-        .deve a {
-        font-size: 14px;
-        border-radius: 50px;
-        padding: 8px 17px;
-        margin-left: 15px;
-    }
-
-    .class {
-         width: 200px;
-         margin: auto;
-     
-    }
-    
-    .redmi1 ul {
-        display: flex;
-        
-        justify-content: center;
-    }
-    .redmi ul{
-        flex-direction: column;
-    }
-    .picture p {
-        width: 212px;
-        padding-bottom: 14px;
-    }
-    .tale {
-            height: 220px;
-        }
-        .tales {
-            height: 226px;
-        }
-
-    .family {
-
-        height: 700px;
-    }
-
-    .money {
-
-        width: 320px;
-
-        padding-top: 40px;
-        margin-top: 47px;
-        font-size: 14px;
-    }
-
-    .picture p {
-        width: 239px;
-    }
-
-    .mosts {
-        padding: 0px 0 60px 0;
-    }
-
-    .forjob a {
-        padding: 6px 50px;
-        font-size: 12px;
-    }
-
-    .jobs {
-        flex-direction: column;
 
     }
 
-    .redmi li {
-        width: 87px;
-        border-radius: 20px;
-        padding: 8px;
-        margin: 6px 2px 0px 0px;
+    .deveimage {
+        margin-bottom: 30px;
+        width: 454px;
+        height: 300px;
+        padding-bottom: 53px;
 
     }
 
-    .talent {
-        width: 316px;
-        padding-left: 42px;
-    }
 
-    .Service1 {
-        flex-direction: column;
-    }
+.deve a {
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 8px 17px;
+    margin-left: 15px;
+}
 
-    .before a {
-        font-size: 20px;
-        padding: 11px;
-    }
+.class {
+    width: 200px;
+    margin: auto;
 
-    .icons span {
+}
 
-        font-size: 20px;
-        padding: 8px;
-    }
+.redmi1 ul {
+    display: flex;
 
-    .money p {
-        width: 245px;
-    }
+    justify-content: center;
+}
 
-    .deve a {
-        font-size: 14px;
-        border-radius: 50px;
-        padding: 8px 17px;
-        margin-left: 15px;
-    }
-    .Every h1 {
-        padding-top: 57px;
-        color: #55535cfb;
-        text-align: center;
-        font-size: 24px;
-    }
-    .dree{
-        padding-bottom: 50px;
-    }
-    .meet {
-       
-        padding: 40px 0;
-        font-size: 29px;
-    }
-    .jupiter {
-        width: 140px;
-        height: 102px;
-    }
-     .jupiter img{
-        width: 100%;
-        height: 100%;
-        margin-left: 96px;
-     }
-     .money h1 {
-        padding: 30px 6px;
-        text-align: center;
-        font-size: 24px;
-    }
-    
-    .money {
-        
-        font-size: 14px;
-    }
-    .top {
-      
-       
-        font-size: 16px;
-    }
-    .us h1 {
-        font-size: 54px;
-        text-align: center;
-        padding: 86px 0 30px 0;
-    }
-    .right p {
-        
-            font-size: 21px;
-        
-        margin-bottom: 33px;}
-        .talent {
-            width: 281px;
-            padding-left: 26px;
-        }
-        .tales p {
-            padding-bottom: 39px;
-        }
-            .redmi li {
-                margin: 8px 2px 8px 0px;
-            }
-            .talent {    
-                height: 796px;    
-            }
-            .picture h1 {
-                font-size: 20px;
-            }
-            .picture p {
-                width: 269px;
-                color: #000000a1;
-            }
-            .project { 
-                margin-right: 5px;   
-            }
-            .right h1 {
-               
-                font-size: 22px;}
-                .roll {
-                    width: 29%;
-                   
-                }
-                .right {
-                    flex-direction: column;
-                    padding: 18px;
-                }
-                .anchor a {
-                    margin-left: 17px;
-                    padding: 6px 28px;
-                    font-size: 25px;
-                    background-color: #4E0FEA;
-                    
-                }
+.redmi ul {
+    flex-direction: column;
+}
+
+.picture p {
+    width: 212px;
+    padding-bottom: 14px;
+}
+
+.tale {
+    height: 220px;
+}
+
+.tales {
+    height: 226px;
+}
+
+.family {
+
+    height: 700px;
+}
+
+.money {
+
+    width: 320px;
+
+    padding-top: 40px;
+    margin-top: 47px;
+    font-size: 14px;
+}
+
+.picture p {
+    width: 239px;
+}
+
+.mosts {
+    padding: 0px 0 60px 0;
+}
+
+.forjob a {
+    padding: 6px 50px;
+    font-size: 12px;
+}
+
+.jobs {
+    flex-direction: column;
+
+}
+
+.redmi li {
+    width: 101px;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 6px 2px 0px 0px;
+
+}
+
+.talent {
+    width: 316px;
+    padding-left: 42px;
+}
+
+.Service1 {
+    padding-bottom: 7px;
+    flex-direction: column;
+}
+
+.before a {
+    font-size: 20px;
+    padding: 11px;
+}
+
+.icons span {
+
+    font-size: 20px;
+    padding: 8px;
+}
+
+.money p {
+    width: 245px;
+}
+
+.deve a {
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 8px 17px;
+    margin-left: 15px;
+}
+
+.Every h1 {
+    padding-top: 57px;
+    color: #55535cfb;
+    text-align: center;
+    font-size: 24px;
+}
+
+.dree {
+    padding-bottom: 50px;
+}
+
+.meet {
+
+    padding: 40px 0;
+    font-size: 29px;
+}
+
+.jupiter {
+    width: 140px;
+    height: 102px;
+}
+
+.jupiter img {
+    width: 100%;
+    height: 100%;
+    margin-left: 96px;
+}
+
+.money h1 {
+    padding: 30px 6px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.money {
+
+    font-size: 14px;
+}
+
+.top {
+
+
+    font-size: 16px;
+}
+
+.us h1 {
+    font-size: 54px;
+    text-align: center;
+    padding: 86px 0 30px 0;
+}
+
+.right p {
+
+    font-size: 21px;
+
+    margin-bottom: 33px;
+}
+
+.talent {
+    width: 281px;
+    padding-left: 26px;
+}
+
+.tales p {
+    padding-bottom: 39px;
+}
+
+.redmi li {
+    margin: 8px 2px 8px 0px;
+}
+
+.talent {
+    height: 796px;
+}
+
+.picture h1 {
+    font-size: 20px;
+}
+
+.picture p {
+    width: 269px;
+    color: #000000a1;
+}
+
+.project {
+    margin-right: 5px;
+}
+
+.right h1 {
+
+    font-size: 22px;
+}
+
+.roll {
+    padding-top: 10px;
+    width: 29%;
+
+}
+
+.right {
+    flex-direction: column;
+    padding: 18px;
+}
+
+.anchor a {
+    margin-left: 17px;
+    padding: 6px 28px;
+    font-size: 25px;
+    background-color: #4E0FEA;
+
+}
 
 }
