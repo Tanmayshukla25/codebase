@@ -189,6 +189,14 @@
         padding: 8px 17px;
         margin-left: 15px;
     }
+    .num {
+        padding: 6px 9px 0 0;
+    }
+    .anchor a {
+        padding: 5px 28px;
+        font-size: 21px;
+       
+    }
 
     .Every h1 {
         padding-top: 57px;
@@ -242,11 +250,13 @@
     }
 
     .right p {
-
-        font-size: 21px;
-
-        margin-bottom: 33px;
-    }
+        
+            font-size: 15px;
+            margin-bottom: 33px;
+            padding: 0px 8px;
+        }
+       
+    
 
     .talent {
         width: 281px;
@@ -274,14 +284,24 @@
         color: #000000a1;
     }
 
-    .project {
-        margin-right: 5px;
-    }
+    
+        .project {
+            width: 30px;
+            height: 30px;
+            margin-right: 5px;
+        }
+        .tale p {
+            width: 187px;
+            font-size: 20px;
+        }
+    
 
     .right h1 {
-
-        font-size: 22px;
-    }
+       
+            font-size: 19px;
+            padding-left: 10px;
+        }
+    
 
     .ford a {
         padding: 0px 23px;
