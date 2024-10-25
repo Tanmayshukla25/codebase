@@ -88,7 +88,14 @@
     .class {
         width: 200px;
         margin: auto;
+        margin-top: 191px;
 
+    }
+    .dree {
+        width: 134px;
+        height: 100px;
+        margin: 0px 54px;
+        padding: 0 0 27px 0;
     }
 
     .redmi1 ul {
@@ -113,10 +120,8 @@
     .tales {
         height: 226px;
     }
-
     .family {
-
-        height: 700px;
+        height: 564px;
     }
 
     .money {
@@ -199,11 +204,12 @@
     }
 
     .Every h1 {
-        padding-top: 57px;
+        padding: 54px 16px 0 16px;
         color: #55535cfb;
         text-align: center;
-        font-size: 24px;
+        font-size: 18px;
     }
+    
 
     .dree {
         padding-bottom: 30px;
@@ -332,6 +338,12 @@
         margin-top: 16px;
     }
 }
+@media screen and (min-width:570px) and (max-width:870px){
+    .ind {
+        flex-direction: column;
+
+    }
+}
 
 @media screen and (min-width:570px) and (max-width:1100px) {
     * {
@@ -343,6 +355,11 @@
     .header {
         display: none;
     }
+    .dree {
+        width: 165px;
+        height: 95px;
+        margin: 0px 54px;
+    }
 
     .main {
         flex-direction: column;
@@ -352,10 +369,10 @@
         flex-direction: column;
     }
 
-    .ind {
+     /* .ind {
         flex-direction: column;
 
-    }
+    }  */
 
     .parents {
         flex-direction: column;
@@ -445,6 +462,7 @@
 .class {
     width: 200px;
     margin: auto;
+    margin-top: 183px;
 
 }
 
@@ -472,8 +490,8 @@
 }
 
 .family {
-
-    height: 700px;
+        height: 598px;
+   
 }
 
 .money {
@@ -544,14 +562,15 @@
 }
 
 .Every h1 {
-    padding-top: 57px;
+    padding: 57px 22px 0 22px;
     color: #55535cfb;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
 }
 
+
 .dree {
-    padding-bottom: 50px;
+    padding-bottom: 29px;
 }
 
 .meet {
@@ -654,8 +673,8 @@
     background-color: #4E0FEA;
 
 }
-
 }
+
 @media screen and (min-width:870px) and (max-width:1100px)
 {
  ind{
